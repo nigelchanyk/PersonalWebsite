@@ -69,7 +69,7 @@
 			ol, ul {
 				list-style-type: disc;
 				margin:10px 0 10px 15px;
-				padding:0 0 0 15px;
+				padding:0 0 0 20px;
 			}
 			
 			li {
@@ -139,6 +139,11 @@
 			.content {
 				padding: 10px;
 			}
+
+			li.tabbed {
+				margin-left: 20px;
+				list-style: circle;
+			}
 			
 			#general_info {
 				margin-bottom: 20px;
@@ -195,7 +200,7 @@
 			
 			<div id="general_info">
 				<ul>
-					<li class="first">2B Software Engineering</li>
+					<li class="first">3A Software Engineering</li>
 					<li>ID: 20383195</li>
 					<li>yknchan@uwaterloo.ca</li>
 				</ul>
@@ -204,17 +209,19 @@
             <table>
                 <tr class="content-section">
                 	<td class="content-title">
-                        <p>Languages</p>
+                        <p>Languages and Frameworks</p>
                     </td>
                     <td class="content">
-                        <p>Programming languages:</p>
-                        <ul><li><b>Java, C#, C++, C, and Visual Basic 6.0</b></li></ul>
-                        <p>Markup languages:</p>
-                        <ul><li><b>ASP.NET, HTML, and XML</b></li></ul>
+                        <p>General Programming Languages:</p>
+                        <ul><li><b>Java, C#, C++, C, Ruby, and Visual Basic 6.0</b></li></ul>
+                        <p>Web Related:</p>
+                        <ul><li><b>Ruby on Rails, ASP.NET, HTML, CSS, Javascript (and CoffeeScript)</b></li></ul>
+						<p>Graphics Related:</p>
+						<ul><li><b>Microsoft XNA Framework, and High Level Shader Language (HLSL)</b></li></ul>
+						<p>Database Related:</p>
+						<ul><li><b>SQL</b></li></ul>
                         <p>Assembly Languages:</p>
                         <ul><li><b>Intel 8085 Instruction Set, MIPS, and ColdFire</b></li></ul>
-						<p>Other languages:</p>
-						<ul><li><b>CSS, JavaScript, and SQL</b></li></ul>
                     </td>
                 </tr>
                 <tr class="content-section">
@@ -223,10 +230,11 @@
                     </td>
                     <td class="content">
                         <ul>
+							<li>Understand fundamental concepts of <b>3D graphics</b></li>
                         	<li>Experience with both <b>front-end</b> and <b>server-side web design</b></li>
-                            <li>Experience with <b>software testing</b>, <b>test case creation</b>, and <b>automated testing tools creation</b></li>
-                            <li>Operating Systems: Windows XP, Windows Vista, Windows 7, Mac OS X, Ubuntu</li>
-                            <li>Application Software: Word, Excel, Publisher, PowerPoint, Visual Studio, Dreamweaver, Photoshop, and Sony Vegas</li>
+                            <li>Operating Systems: Windows 8/7/Vista/XP, Mac OS X, Ubuntu</li>
+                            <li>IDE and Text Editors: Vim, Visual Studio, NetBeans, Eclipse, and Dreamweaver</li>
+							<li>Multimedia Editors: Blender, Photoshop, and Sony Vegas</li>
                             <li>Able to adapt new programming languages quickly</li>
                             <li>Demonstrated leadership and teamwork skills in all group projects</li>
                             <li>Able to work independently under minimal supervision</li>
@@ -269,13 +277,21 @@
                     	<p>Personal and School Projects</p>
                     </td>
 					<td class="content">
+						<p><b>Tales of Etherea, a 3D action oriented adventure game</b></p>
+						<ul>
+							<li>Created custom shader and post-rendering process for custom graphical effects</li>
+							<li>Utilized Dynamic Particle System Framework (DPSF) for common particle effects, and created a custom particle engine for specific particle effects</li>
+							<li>Implemented custom animation engine to handle character animation</li>
+							<li>Created map utilities to generate both indoor/outdoor environment</li>
+                            <li>More information about this project can be found at <a href="http://nigelchan.ca/projects.html">http://nigelchan.ca/projects.html</a></li>
+						</ul>
 						<p><b>My Personal Website</b></p>
                         <ul>
                         	<li>Created a website from scratch (no templates used)</li>
                             <li>Implemented web responsive design for views at different screen sizes</li>
                             <li>The website is available at <a href="http://nigelchan.ca">http://nigelchan.ca</a>
                         </ul>
-                        <p><b>AeroInvasion, a 2D aircraft shooter game written in Java</b></p>
+                        <p><b>AeroInvasion, a 2D aircraft shooter game</b></p>
 						<ul>
 							<li>Finalist in the ShowCase competition held by the University of Toronto in the year of 2010</li>
 							<li>Supports basic keyboard, SMART board/touch screen, and Nintendo's Wii remote controls</li>
@@ -290,6 +306,18 @@
                     	<p>Work Experience</p>
                     </td>
 					<td class="content">
+						<p><b>Agile Engineer</b>, Xtreme Labs Inc., Toronto, ON, from Sept. to Dec., 2012</P>
+						<ul>
+							<li>Participated in two web projects: <b>Cineplex Magazine</b> and an internal website for project management</li>
+							<li>Adapted pair programming and Test Driven Development (TDD)</li>
+							<li><i>Cineplex Magazine:</i></li>
+							<li class="tabbed">Converted the project to use Backbone.js, a Javascript MVC framework</li>
+							<li class="tabbed">Created a scraper to provide an offline version of the magazines</li>
+							<li class="tabbed">Improved graphical performance of the magazine by utilizing hardware acceleration</li>
+							<li><i>An Internal Project Management Website:</i></li>
+							<li class="tabbed">Optimized SQL query performance</li>
+							<li class="tabbed">Responsible for bug fixes</li>
+						</ul>
                     	<p><b>Jr. Web Developer</b>, Kobo Inc., Toronto, ON, from Jan. to Apr., 2012</p>
                         <ul>
                         	<li>Responsible for website maintenance</li>
