@@ -1,0 +1,47 @@
+/* CSS Document */
+@media only screen and (max-width: 479px) {
+	#general-info {
+		padding-left: 110px;
+		min-height: 100px;
+		background: url(../images/my_pic_small.png) no-repeat left top;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width:759px) {
+	#general-info {
+		padding-left: 210px;
+		min-height: 200px;
+		background: url(../images/my_pic_medium.png) no-repeat left top;
+	}
+}
+
+@media only screen and (min-width: 760px) {
+	#general-info {
+		padding-left: 320px;
+		min-height: 300px;
+		background: url(../images/my_pic_large.png) no-repeat left top;
+	}
+}
+
+#general-info {
+	margin: 15px 0;
+}
+
+#general-info b {
+	font-weight: bold;
+	color: #B9EEEE;
+}
+
+#general-info p {
+	line-height: 115%;
+}
+
+#general-info ol, ul {
+	list-style-type: disc;
+	margin:0 0 10px 15px;
+	padding:0 0 0 15px;
+}
+
+#general-info li {
+	line-height: 115%;
+}

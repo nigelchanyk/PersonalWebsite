@@ -1,0 +1,7 @@
+/* CSS Document */
+#text-content {
+	background: url(../images/welcome.png) no-repeat left top !important;
+	padding-left: 360px !important;
+	margin-top: 20px !important;
+	height: 400px !important;
+}

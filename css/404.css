@@ -1,0 +1,26 @@
+/* CSS Document */
+.blue-screen {
+	margin: 20px 0;
+	background-color:#00F;
+	border-style: solid;
+	border-bottom-color: #666;
+	border-right-color: #888;
+	border-left-color: #555;
+	border-top-color: #666;
+	border-width: medium;
+}
+
+.blue-screen p {
+	margin-bottom: 15px;
+	color:#FFF;
+	line-height: 110%;
+	font-family:"Courier New", Courier, monospace;
+	font-size: 18px;
+}
+
+.blue-screen a {
+	color: #CCC;
+	font-family:"Courier New", Courier, monospace;
+	text-decoration: underline;
+	font-size: 18px;
+}

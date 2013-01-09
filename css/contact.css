@@ -1,0 +1,175 @@
+/* CSS Document */
+@media only screen and (max-width: 479px) {
+	.indent {
+		padding-left: 15px;
+	}
+	
+	.textfield {
+		width: 230px;
+	}
+	
+	.textarea {
+		width: 230px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width:599px) {
+	.indent {
+		padding-left: 20px;
+	}
+	
+	.textfield {
+		width: 300px;
+	}
+	
+	.textarea {
+		width: 380px;
+	}
+
+}
+
+@media only screen and (min-width: 600px) {
+	.indent {
+		padding-left: 30px;
+	}
+	
+	.textfield {
+		width: 300px;
+	}
+	
+	.textarea {
+		width: 400px;
+	}
+}
+
+.code {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+}
+
+.code p {
+	font-family: "Courier New", Courier, monospace;
+	line-height: 115%;
+}
+
+.error {
+	color: #3C3;
+}
+
+.textfield {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	background-color: #000;
+	color: #FC0;
+	height: auto;
+	border-style: solid;
+	border-top-color: #333333;
+	border-left-color: #555555;
+	border-right-color: #BBBBBB;
+	border-bottom-color: #DDDDDD;
+	border-width: thin;
+	margin-bottom: 5px;
+}
+
+.textfield:focus {
+	font-weight: bold;
+	border-style: solid;
+	border-top-color: #333333;
+	border-left-color: #555555;
+	border-right-color: #BBBBBB;
+	border-bottom-color: #DDDDDD;
+	border-width: medium;
+}
+
+
+.textarea {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	background-color: #000;
+	color: #FC0;
+	height: 300px;
+	border-style: solid;
+	border-top-color: #333333;
+	border-left-color: #555555;
+	border-right-color: #BBBBBB;
+	border-bottom-color: #DDDDDD;
+	border-width: thin;
+	margin-bottom: 5px;
+	overflow-y: auto;
+}
+
+.textarea:focus {
+	font-weight: bold;
+	border-style: solid;
+	border-top-color: #333333;
+	border-left-color: #555555;
+	border-right-color: #BBBBBB;
+	border-bottom-color: #DDDDDD;
+	border-width: medium;
+}
+
+.reserved {
+	color:#0CF;
+}
+
+.class {
+	color:#F3F;
+}
+
+.method {
+	font-weight: bold;
+	color: #CCC;
+}
+
+.quote {
+	color: #FC0;
+}
+
+.feedback {
+	margin-bottom: 300 px;
+}
+
+#form_submission {
+     margin: 0px;
+     padding: 0px;
+     font-family: Verdana, Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     line-height: 30px;
+	 margin-left: 50px;
+	 margin-top: 20px;
+	 margin-bottom: 20px;
+ }
+
+#form_submission {
+	height: 50px;
+	width: 200px;
+	text-align:center;
+	margin-left: 50px;
+	display: block;
+	color: #FFF;
+	background-color: #555;
+	font-weight: bold;
+	border-style: solid;
+	border-bottom-color: #333;
+	border-right-color: #555;
+	border-left-color: #BBB;
+	border-top-color: #DDD;
+	border-width: thick;
+}
+
+#form_submission:hover {
+	border-style: solid;
+	background-color: #777;
+}
+
+#form_submission:active {
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #777;
+	border-style: solid;
+}
+
+.credit {
+	margin: 30px 0;
+	border: 1px solid #3CF;
+}

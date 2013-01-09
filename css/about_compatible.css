@@ -1,0 +1,7 @@
+/* CSS Document */
+
+#general-info {
+	padding-left: 320px !important;
+	min-height: 300px !important;
+	background: url(../images/my_pic_large.png) no-repeat left top !important;
+}

@@ -1,0 +1,60 @@
+/* CSS Document */
+@media only screen and (max-width: 479px) {
+	#image-content {
+		background: url(../images/welcome_small.png);
+		width: 300px;
+		height: 100px;
+		margin: 0 auto 5px auto;
+	}
+	
+	#text-content {
+		max-width: 450px;
+		margin: 20px 0;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width:599px) {
+	#image-content {
+		background: url(../images/welcome_medium.png);
+		width: 460px;
+		height: 150px;
+		margin: 0 auto 5px auto;
+	}
+	
+	#text-content {
+		max-width: 570px;
+		margin: 20px;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width:759px) {
+	#image-content {
+		background: url(../images/welcome_medium.png);
+		width: 460px;
+		height: 150px;
+		margin: 0 auto 10px auto;
+	}
+	
+	#text-content {
+		max-width: 730;
+		margin: 20px;
+	}
+}
+
+@media only screen and (min-width: 760px) and (max-width:899px) {
+	#text-content {
+		background: url(../images/welcome_large.png) no-repeat left top;
+		padding-left: 260px;
+		margin-top: 20px;
+		height: 350px;
+	}
+}
+
+@media only screen and (min-width: 900px) {	
+	#text-content {
+		background: url(../images/welcome.png) no-repeat left top;
+		padding-left: 360px;
+		margin-top: 20px;
+		height: 400px;
+	}
+}

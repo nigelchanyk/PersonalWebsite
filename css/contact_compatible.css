@@ -1,0 +1,13 @@
+/* CSS Document */
+
+.indent {
+	padding-left: 30px !important;
+}
+
+.textfield {
+	width: 300px !important;
+}
+
+.textarea {
+	width: 400px !important;
+}

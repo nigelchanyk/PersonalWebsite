@@ -1,0 +1,165 @@
+@media only screen and (max-width: 479px) {
+	#slider-navigator {
+		width: 300px;
+	}
+	
+	#education-page .title-medium h2 {
+		font-size: 14px;
+	}
+	
+	.history-date {
+		width: 80px;
+	}
+	
+	#html-resume-comment {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width:599px) {
+	#slider-navigator {
+		width: 300px;
+	}
+	
+	.history-date {
+		width: 150px;
+	}
+	
+	#html-resume-options {
+		float: left;
+		width: 50%;
+	}
+	
+	#html-resume-comment {
+		float: left;
+		width: 45%;
+		margin-left: 5px;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width:759px) {
+	.history-date {
+		width: 150px;
+	}
+	
+	#html-resume-options {
+		float: left;
+		width: 50%;
+	}
+	
+	#html-resume-comment {
+		float: left;
+		width: 45%;
+		margin-left: 5px;
+	}
+}
+
+@media only screen and (min-width: 760px) {
+	.history-date {
+		width: 150px;
+	}
+	
+	#html-resume-options {
+		float: left;
+		width: 60%;
+	}
+	
+	#html-resume-comment {
+		float: left;
+		width: 30%;
+	}
+	
+	#title-page {
+		background: url(../images/resume.png) no-repeat left top;
+		padding-left: 320px;
+	}
+	
+	#languages-page {
+		background: url(../images/code.png) no-repeat left top;
+		padding-left: 320px;
+	}
+	
+	#skills-page {
+		background: url(../images/skills.png) no-repeat left top;
+		padding-left: 320px;
+	}
+	
+	#education-page {
+		background: url(../images/medal.png) no-repeat left top;
+		padding-left: 320px;
+	}
+	
+	#projects-page {
+		background: url(../images/paper_plane.png) no-repeat left top;
+		padding-left: 320px;
+	}
+	
+	#experience-page {
+		background: url(../images/briefcase.png) no-repeat left top;
+		padding-left: 320px;
+	}
+	
+	#volunteer-page {
+		background: url(../images/hand.png) no-repeat left top;
+		padding-left: 320px;
+	}
+	
+	#activities-page {
+		background: url(../images/golf.png) no-repeat left top;
+		padding-left: 320px;
+	}
+}
+
+#comment {
+	color: #FFF;
+	font-size: 20px;
+	font-style: italic;
+}
+
+#history tr td {
+	padding: 5px;
+	font-size: 14px;
+}
+
+#slider-navigator {
+	text-align: center;
+	margin: 15px auto;
+}
+
+#slider-navigator ul {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+#slider-navigator ul li {
+	display: inline;
+}
+
+#slider-container {
+	width: 100%;
+	height: 320px;
+	overflow: hidden;
+}
+
+.slide {
+    float: left;
+}
+
+.slider-content {
+	min-height: 320px;
+}
+
+.resume-title {
+	color: #3CF;
+}
+
+.resume-subtitle {
+	margin: 15px 0 80px 20px;
+	color:#B9EEEE;
+}
+
+.resume-instructions {
+	color:#666;
+	margin: 15px 0 0 0;
+}

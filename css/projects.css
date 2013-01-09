@@ -1,0 +1,29 @@
+/* CSS Document */
+.download {
+	text-align: center;
+}
+
+.download a {
+	color: #09C;
+	text-decoration: underline;
+	text-align: center;
+	font-size: 20px;
+}
+
+.download a:hover {
+	color: #63F;
+}
+
+.gallery { margin: 0 auto; text-align: center; }
+.gallery ul { list-style: none; }
+.gallery ul li { display: inline; }
+.gallery ul img {
+	border: 5px solid #666;
+	border-width: 5px 5px 5px;
+}
+.gallery ul a:hover img {
+	border: 5px solid #AAA;
+	border-width: 5px 5px 5px;
+	color: #AAA;
+}
+.gallery ul a:hover { color: #AAA; }

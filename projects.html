@@ -1,0 +1,201 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="css/projects.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css" media="screen"/>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.lightbox-0.5.min.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        $('#aeroinvasion-gallery a').lightBox();
+		$('#mips-gallery a').lightBox();
+    });
+    </script>
+    <title>Nigel Chan's Personal Website</title>
+</head>
+
+<body>
+	
+    <div id="wrapper">
+    	<div id="site-title">
+        	<div id="title-image"></div>
+            <div id="quote-block">
+				<div id="quote">Enable javascript for cool effects!</div>
+                <div id="responsive-status">
+                	Responsive Web Design in Action!
+                </div>
+            </div>
+        </div>
+    
+    	<div id="topnav-div">
+            <div class="left">
+                <div class="right">
+                    <div class="center">
+                        <div id="drop-down-trigger">
+                            Site Navigator
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="nav-item-frame">
+            <ul class="topnav">
+                <li><a href="/">
+                    <div class="left">
+                        <div class="right">
+                            <div class="center">
+                            	<div>Home</div>
+                            </div>
+                        </div>
+                    </div>
+                </a></li>
+                <li><a href="about.html">
+                    <div class="left">
+                        <div class="right">
+                            <div class="center">
+                            	<div>About Me</div>
+                            </div>
+                        </div>
+                    </div>
+                </a></li>
+                <li><a href="resume.html">
+                    <div class="left">
+                        <div class="right">
+                            <div class="center">
+                            	<div>Résumé</div>
+                            </div>
+                        </div>
+                    </div>
+                </a></li>
+                <li>
+                    <div class="left">
+                        <div class="right">
+                            <div class="center">
+                            	<div>Projects</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="contact.php">
+                    <div class="left">
+                        <div class="right">
+                            <div class="center">
+                            	<div>Contact Me</div>
+                            </div>
+                        </div>
+                    </div>
+                </a></li>
+            </ul>
+        </div>
+        
+        <div id="content">
+        	<div class="project">
+                <div class="title-large">
+                	<div>
+                    	<h2>AeroInvasion</h2>
+                    </div>
+                </div>
+                <div id="aeroinvasion-gallery" class="gallery">
+                    <ul>
+                        <li>
+                            <a href="images/aeroinvasion/screenshot_0.png" title="Self-made Star Wars opening crawl">
+                                <img src="images/aeroinvasion/thumbnail_0.png" width="50px" height="50px" alt=""/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="images/aeroinvasion/screenshot_1.png" title="Gameplay 1">
+                                <img src="images/aeroinvasion/thumbnail_1.png" width="50px" height="50px" alt=""/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="images/aeroinvasion/screenshot_2.png" title="Gameplay 2">
+                                <img src="images/aeroinvasion/thumbnail_2.png" width="50px" height="50px" alt=""/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="images/aeroinvasion/screenshot_3.png" title="Boss Battle">
+                                <img src="images/aeroinvasion/thumbnail_3.png" width="50px" height="50px" alt=""/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-area">
+                    <p>Aero Invasion is a two-dimensional aircraft shooting game written in Java. It was originally a high school programming project coded by Vincent Tang and I. I updated a lot of features to the game for version 1.1 in order to enter the ShowCase Competition of University of Toronto.</p>
+                    <h4>Gameplay</h4>
+                    <p>The player is allowed to rotate freely, and is allowed choose from a list of weapons. Once the game starts, different enemies enter from all directions. The objective of this game is to defeat all hostile aircrafts, and to minimize damage received as much as possible.</p>
+                    <h4>Features</h4>
+                    <ul>
+                        <li>Can be played with a wiimote, a keyboard with a mouse, or a smartboard/touchscreen.</li>
+                        <li>Self-made Star Wars opening crawl</li>
+                        <li>LAN network versus mode</li>
+                    </ul>
+                    <h4>Credits</h4>
+                    <p>Special thanks to people who provide their work to the public.</p>
+                    <ul>
+                        <li>Prinz Eugn (Mark Simpson)'s aircraft images</li>
+                        <li>Kengine Gaming's explosion images</li>
+                        <li>Michael Laforest's WiiUseJ library</li>
+                    </ul>
+                    <h4>System Requirements</h4>
+                    <ul>
+                        <li>Minimum resolution of 1024 px x 768 px</li>
+                        <li>Java Runtime Environment (JRE)</li>
+                        <li>(Recommended) Rage Italic Font</li>
+                        <li>(Optional) Wii remote controller and Bluetooth receiver</li>
+                    </ul>
+                    <p class="download"><a href="content/aeroInvasion.zip">Download</a></p>
+                </div>
+            </div>
+            
+            <div class="project">
+                <div class="title-large clear-float">
+                	<div>
+                    	<h2>MIPS Debugger</h2>
+                    </div>
+                </div>
+                <div id="mips-gallery" class="gallery">
+                    <ul>
+                        <li>
+                            <a href="images/mipsdebugger/screenshot_0.png" title="Line by Line Execution">
+                                <img src="images/mipsdebugger/thumbnail_0.png" width="50px" height="50px" alt=""/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="images/mipsdebugger/screenshot_1.png" title="Syntax Error Detection">
+                                <img src="images/mipsdebugger/thumbnail_1.png" width="50px" height="50px" alt=""/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-area">
+                    <p>A MIPS simulation tool written in Java for debugging purposes. The syntax of the MIPS assembly program is a simplified version of MIPS used in <a href="http://www.cs.uwaterloo.ca/current/courses/course_descriptions/cDescr/newCDescr/CS241.shtml" target="_blank">CS241 - Foundations of Sequential Programs.</a></p>
+                    <h4>Feature</h4>
+                    <ul>
+                        <li>Execute MIPS assembly program</li>
+                        <li>Monitor changes in registers and memory</li>
+                        <li>Detect syntax errors</li>
+                    </ul>
+                    <h4>System Requirements</h4>
+                    <ul>
+                        <li>Windows operating system</li>
+                        <li>Java Runtime Environment (JRE)</li>
+                    </ul>
+                    <p class="download"><a href="content/MipsDebuggerbeta0.06.zip">Download</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="copyright">
+        	<p class="footer-text">© 2012 Yin Ki Nigel Chan</p>
+        </div>
+        
+    </div>
+    
+</body>
+
+</html>

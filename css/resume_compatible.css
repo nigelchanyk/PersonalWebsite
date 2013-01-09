@@ -1,0 +1,62 @@
+/* CSS Document */
+#slider-navigator {
+	width: 700px !important;
+}
+
+#slider-navigator ul {
+	display: inline;
+}
+
+.history-date {
+	width: 150px !important;
+}
+
+#html-resume-options {
+	float: left !important;
+	width: 60% !important;
+}
+
+#html-resume-comment {
+	float: left !important;
+	width: 30% !important;
+}
+
+#title-page {
+	background: url(../images/resume.png) no-repeat left top !important;
+	padding-left: 320px !important;
+}
+
+#languages-page {
+	background: url(../images/code.png) no-repeat left top !important;
+	padding-left: 320px !important;
+}
+
+#skills-page {
+	background: url(../images/skills.png) no-repeat left top !important;
+	padding-left: 320px !important;
+}
+
+#education-page {
+	background: url(../images/medal.png) no-repeat left top !important;
+	padding-left: 320px !important;
+}
+
+#projects-page {
+	background: url(../images/paper_plane.png) no-repeat left top !important;
+	padding-left: 320px !important;
+}
+
+#experience-page {
+	background: url(../images/briefcase.png) no-repeat left top !important;
+	padding-left: 320px !important;
+}
+
+#volunteer-page {
+	background: url(../images/hand.png) no-repeat left top !important;
+	padding-left: 320px !important;
+}
+
+#activities-page {
+	background: url(../images/golf.png) no-repeat left top !important;
+	padding-left: 320px !important;
+}
