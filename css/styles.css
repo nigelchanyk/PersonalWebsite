@@ -252,6 +252,7 @@ h1, h2, h3, h4, h5, h6 {
 		margin-right: 0;
 		padding-right: 5px !important;
 	}
+
 }
 
 @media only screen and (min-width: 760px) and (max-width:899px) {
@@ -438,6 +439,11 @@ ul.topnav li a {
     display: block;
 	text-align: center;  
     text-decoration: none;
+}
+
+li.tabbed {
+	margin-left: 15px;
+	list-style-type: circle;
 }
 
 #wrapper {
