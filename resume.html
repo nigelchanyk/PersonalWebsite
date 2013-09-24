@@ -158,7 +158,7 @@
                                 	<h2 class="resume-title">Yin Ki Nigel Chan</h2>
                             	</div>
                             </div>
-                            <h5 class="resume-subtitle">3A Software Engineering</h5>
+                            <h5 class="resume-subtitle">3B Software Engineering</h5>
                             <div class="text-area">
                                 <ul>
                                     <li>Student ID: 20383195</li>
@@ -176,16 +176,14 @@
                                 </div>
                             </div>
                             <div class="text-area">
-								<p>General Programming Languages:</p>
-								<ul><li><b>Java, C#, C++, C, Ruby, and Visual Basic 6.0</b></li></ul>
-								<p>Web Related:</p>
-								<ul><li><b>Ruby on Rails, ASP.NET, HTML, CSS, Javascript (and CoffeeScript)</b></li></ul>
-								<p>Graphics Related:</p>
-								<ul><li><b>Microsoft XNA Framework, and High Level Shader Language (HLSL)</b></li></ul>
-								<p>Database Related:</p>
-								<ul><li><b>SQL</b></li></ul>
-								<p>Assembly Languages:</p>
-								<ul><li><b>Intel 8085 Instruction Set, MIPS, and ColdFire</b></li></ul>
+                                <p>General Programming Languages:</p>
+                                <ul><li><b>Java, C#, C++, C, Ruby, and Python</b></li></ul>
+                                <p>Web Related:</p>
+                                <ul><li><b>Ruby on Rails, ASP.NET, HTML, CSS, JavaScript (and CoffeeScript)</b></li></ul>
+                                <p>Graphics Related:</p>
+                                <ul><li><b>Ogre 3D, and Microsoft XNA Framework</b></li></ul>
+                                <p>Database Related:</p>
+                                <ul><li><b>SQL</b></li></ul>
                             </div>
                         </div>
                     </div>
@@ -284,7 +282,13 @@
                             	</div>
                             </div>
                             <div class="text-area">
-								<p><b>Agile Engineer</b>, Xtreme Labs Inc., Toronto, ON, from Sept. to Dec., 2012</P>
+                                <p>Engineer, <b>Yelp Inc.</b>, San Francisco, CA, from May to Aug., 2013</p>
+                                <ul>
+                                    <li>Created a system to export business data as CSV reports</li>
+                                    <li>Performed code refactoring with various design patterns</li>
+                                    <li>Fixed data import system related issues</li>
+                                </ul>
+                                <p>Agile Engineer, <b>Xtreme Labs Inc.</b>, Toronto, ON, from Sept. to Dec., 2012</P>
 								<ul>
 									<li>Participated in two web projects: <b>Cineplex Magazine</b> and an internal website for project management</li>
 									<li>Adapted pair programming and Test Driven Development (TDD)</li>
@@ -296,21 +300,21 @@
 									<li class="tabbed">Optimized SQL query performance</li>
 									<li class="tabbed">Responsible for bug fixes</li>
 								</ul>
-                            	<p><b>Jr. Web Developer</b>, Kobo Inc., Toronto, ON, from Jan. to Apr., 2012</p>
+                                <p>Jr. Web Developer, <b>Kobo Inc.</b>, Toronto, ON, from Jan. to Apr., 2012</p>
                                 <ul>
                                     <li>Responsible for website maintenance</li>
                                     <li>Implemented CSS and JavaScript designs for various new web pages</li>
                                     <li>Fixed server-side code issues</li>
                                     <li>Created an automated tool that collected and updated translated string resources from translation service</li>
                                 </ul>
-                                <p><b>Quality Assurance Analyst</b>, Kobo Inc., Toronto, ON, from May to Aug., 2011</p>
+                                <p>Quality Assurance Analyst, <b>Kobo Inc.</b>, Toronto, ON, from May to Aug., 2011</p>
                                 <ul>
                                     <li>Responsible for testing metadata and eBook parsers, SQL databases, and CMS webpage</li>
                                     <li>Created test plans for each feature release</li>
                                     <li>Identified and reported errors in details using JIRA and Pivotal Tracker</li>
                                     <li>Created automated unit testing tools for metadata loading and CMS webpage</li>
                                 </ul>
-                                <p><b>Software testing</b>, Intrafinity, Toronto, ON, Dec. 2009</p>
+                                <p>Quality Assurance, <b>Intrafinity</b>, Toronto, ON, Dec. 2009</p>
                                 <ul>
                                     <li>Responsibility of testing all functions of a new school website, in a management software design company</li>
                                     <li>Identified and reported errors in details using Bugzilla</li>
@@ -372,30 +376,30 @@
 	$("#current-tab").mouseenter(function () {$("#comment").html("Why??? (Sad face...)");});
 	$("#current-tab").mouseleave(function () {$("#comment").html("");});
 	
-	$("#resume-item").live("mouseenter", function() {NavigatorMouseEnter(0);});
-	$("#code-item").live("mouseenter", function() {NavigatorMouseEnter(1);});
-	$("#skills-item").live("mouseenter", function() {NavigatorMouseEnter(2);});
-	$("#medal-item").live("mouseenter", function() {NavigatorMouseEnter(3);});
-	$("#plane-item").live("mouseenter", function() {NavigatorMouseEnter(4);});
-	$("#briefcase-item").live("mouseenter", function() {NavigatorMouseEnter(5);});
-	$("#hand-item").live("mouseenter", function() {NavigatorMouseEnter(6);});
-	$("#golf-item").live("mouseenter", function() {NavigatorMouseEnter(7);});
+	$("#resume-item").bind("mouseenter", function() {NavigatorMouseEnter(0);});
+	$("#code-item").bind("mouseenter", function() {NavigatorMouseEnter(1);});
+	$("#skills-item").bind("mouseenter", function() {NavigatorMouseEnter(2);});
+	$("#medal-item").bind("mouseenter", function() {NavigatorMouseEnter(3);});
+	$("#plane-item").bind("mouseenter", function() {NavigatorMouseEnter(4);});
+	$("#briefcase-item").bind("mouseenter", function() {NavigatorMouseEnter(5);});
+	$("#hand-item").bind("mouseenter", function() {NavigatorMouseEnter(6);});
+	$("#golf-item").bind("mouseenter", function() {NavigatorMouseEnter(7);});
 	  
-	$("#resume-item").live("mouseleave", function() {NavigatorMouseLeave(0);});
-	$("#code-item").live("mouseleave", function() {NavigatorMouseLeave(1);});
-	$("#skills-item").live("mouseleave", function() {NavigatorMouseLeave(2);});
-	$("#medal-item").live("mouseleave", function() {NavigatorMouseLeave(3);});
-	$("#plane-item").live("mouseleave", function() {NavigatorMouseLeave(4);});
-	$("#briefcase-item").live("mouseleave", function() {NavigatorMouseLeave(5);});
-	$("#hand-item").live("mouseleave", function() {NavigatorMouseLeave(6);});
-	$("#golf-item").live("mouseleave", function() {NavigatorMouseLeave(7);});
+	$("#resume-item").bind("mouseleave", function() {NavigatorMouseLeave(0);});
+	$("#code-item").bind("mouseleave", function() {NavigatorMouseLeave(1);});
+	$("#skills-item").bind("mouseleave", function() {NavigatorMouseLeave(2);});
+	$("#medal-item").bind("mouseleave", function() {NavigatorMouseLeave(3);});
+	$("#plane-item").bind("mouseleave", function() {NavigatorMouseLeave(4);});
+	$("#briefcase-item").bind("mouseleave", function() {NavigatorMouseLeave(5);});
+	$("#hand-item").bind("mouseleave", function() {NavigatorMouseLeave(6);});
+	$("#golf-item").bind("mouseleave", function() {NavigatorMouseLeave(7);});
 	
-	$("#resume-item").live("click", function() {NavigatorMouseClick(0);});
-	$("#code-item").live("click", function() {NavigatorMouseClick(1);});
-	$("#skills-item").live("click", function() {NavigatorMouseClick(2);});
-	$("#medal-item").live("click", function() {NavigatorMouseClick(3);});
-	$("#plane-item").live("click", function() {NavigatorMouseClick(4);});
-	$("#briefcase-item").live("click", function() {NavigatorMouseClick(5);});
-	$("#hand-item").live("click", function() {NavigatorMouseClick(6);});
-	$("#golf-item").live("click", function() {NavigatorMouseClick(7);});
+	$("#resume-item").bind("click", function() {NavigatorMouseClick(0);});
+	$("#code-item").bind("click", function() {NavigatorMouseClick(1);});
+	$("#skills-item").bind("click", function() {NavigatorMouseClick(2);});
+	$("#medal-item").bind("click", function() {NavigatorMouseClick(3);});
+	$("#plane-item").bind("click", function() {NavigatorMouseClick(4);});
+	$("#briefcase-item").bind("click", function() {NavigatorMouseClick(5);});
+	$("#hand-item").bind("click", function() {NavigatorMouseClick(6);});
+	$("#golf-item").bind("click", function() {NavigatorMouseClick(7);});
 </script>

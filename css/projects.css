@@ -27,3 +27,25 @@
 	color: #AAA;
 }
 .gallery ul a:hover { color: #AAA; }
+
+.outer-video-wrapper {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin: 10px;
+}
+
+.video-wrapper iframe,
+.video-wrapper object,
+.video-wrapper embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
